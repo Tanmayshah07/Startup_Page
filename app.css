@@ -1,0 +1,689 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abysinicca SIL';
+      src: url('/fonts/AbyssinicaSIL-R.ttf');
+
+}
+
+
+
+
+
+
+/*==========HomePage ==========
+==============================*/
+.first{
+    height: 100vh;
+  
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),url('images/first_1.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 30%;
+    
+}
+
+.flex-container-1{
+    width: 100%;
+    height: 30%;
+}
+
+.nav{
+    width: 50%;
+    float: left;
+}
+
+.ecell-logo{
+    width: 150px;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+.ecell-button{
+    margin-top:4%;
+    margin-left: 60%;
+    width: 225px;
+    padding: 8px;
+    background: #620DF6;
+border-radius: 0px 18px 0px 0px;
+}
+
+.ecell-button p{
+    font-size: 18px;
+    margin-left: 20%;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: 27px;
+font-family: sans-serif;
+letter-spacing: -0.427179px;    
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 15vh;
+}
+
+.title p{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 9vw;
+line-height: 28%;
+letter-spacing: 7px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.listing{
+    margin: auto;
+    width: 65%;
+    height: 8vh;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 17.5%;
+}
+
+.listing-text{
+    padding: 18px;
+    font-family:sans-serif;
+}
+
+@media (max-width: 1100px){
+    .ecell-button{
+        margin-left: 45%;
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+/*==========Nemocare ==========
+==============================*/
+.second{
+    height: 100vh;
+}
+.flex-container-2{
+    width: 100%;
+    height: 100vh;
+}
+.nemocare{
+    width: 50%;
+    float: left;
+}
+.nemocare-logo{
+    position: relative;
+    width: 70%;
+    top: 10vh;
+    left: 20%;    
+}
+.rectangle{
+    width: 20%;
+    height: 5px;
+    
+background: linear-gradient(90deg, #9238FF 0%, #000000 94.96%);
+border-radius: 2px;
+margin-top: 10vh;
+}
+
+.heading{
+font-family: Archivo Black;
+font-style: normal;
+font-weight: normal;
+font-size: 3.5vw;
+
+letter-spacing: -1.25641px;
+;
+color: #000000;
+}
+
+.intro{
+font-family: Abyssinica SIL;
+font-style: normal;
+font-weight: normal;
+font-size: 2.5vw;
+margin-top: 5vh;
+
+
+letter-spacing: -0.502564px;
+
+color: #000000;
+}
+
+.detail{
+    font-family: Encode Sans Expanded;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5vw;
+letter-spacing: -0.502564px;
+margin-top: 5vh;
+margin-right: 2.5vw;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+.nemocare .button, .frinks .button, .snazzy .button, .StoryXpress .button, .signalx .button{
+    width: 180px;
+    padding: 2%;
+    background: #620DF6;
+border-radius: 0px 18px 0px 0px;
+margin-top: 10vh;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+
+font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+/*==========Frinks ==========
+==============================*/
+.third{
+    height: 100vh;
+    background: #F5F5F5;
+}
+
+.flex-container-3{
+    width: 100%;
+    height: 100vh;
+}
+.frinks{
+    width: 50%;
+    float: left;
+}
+
+.frinks .text{
+    margin-left: 7vw;
+}
+
+.frinks-logo{
+    position: relative;
+    width: 90%;
+    top: -5vh;
+    left: 10%;    
+}
+
+
+
+
+
+
+/*==========Snazzy==========
+==============================*/
+
+.fourth{
+    height: 100vh;
+}
+
+.flex-container-4{
+    width: 100%;
+    height: 100vh;
+}
+.snazzy{
+    width: 50%;
+    float: left;
+}
+
+.snazzy-logo{
+    position: relative;
+    width: 80%;
+    top: 5vh;
+    left: 10%;    
+}
+
+.snazzy .intro{
+    font-size: 2.6vw;   
+}
+
+
+
+
+
+
+
+
+/*==========StoryXpress ==========
+==============================*/
+.fifth{
+    height:100vh;
+    background: #F5F5F5;
+}
+
+
+.StoryXpress{
+    width: 50%;
+    float: left;
+}
+
+
+.StoryXpress .text{
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.StoryXpress-logo{
+    position: relative;
+    width: 80%;
+}
+
+
+
+
+
+
+
+/*==========Signalx ==========
+==============================*/
+.sixth{
+    height: 100vh;
+}
+
+.flex-container-6{
+    width: 100%;
+    height: 100vh;
+}
+.signalx{
+    width: 50%;
+    float: left;
+}
+
+.signalx-logo{
+    position: relative;
+    width: 70%;
+    top: 10vh;
+    left: 10%;    
+    box-shadow: 0px 62px 54px rgba(0, 0, 0, 0.25);
+border-radius: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========Responsivity=======
+==============================*/
+
+
+
+
+
+
+@media (max-width: 850px){
+    .ecell-button{
+        margin-left: 25%;
+        width: 120px;
+        padding: 4px;
+        margin-top: 8%;
+    }
+    .ecell-button p{
+        font-size: 12px;
+    }
+    .ecell-logo{
+        width: 125px;
+    }
+    .nemocare{
+        width: 100%;
+        text-align: center;
+    }
+    .nemocare-logo{
+        position: relative;
+        width: 70%;
+        top: 5vh;
+        left: 0%; 
+
+    }
+    .rectangle{
+        position: relative;
+        left: 40%;
+        margin-top: 2vh;
+    }
+    .heading{
+        font-size: 10vw;
+        margin-top: 2vh;
+    }
+    .intro{
+        font-size: 6vw;
+        margin-top: 2vh;
+    }
+    .detail{
+        font-size: 4vw;
+        margin-top: 2vh;
+    }
+    .nemocare .button, .snazzy .button, .StoryXpress .button, .signalx .button{
+        width: 150px;
+        padding: 2%;
+        margin-top: 7vh;
+        font-size: 4vw;
+        margin-left: 30%;
+ 
+    }
+    .frinks{
+        width: 100%;
+        text-align: center;
+
+    }
+    .frinks-logo{
+        margin-top: -52vh;
+        left: 0%;
+    }
+
+    .frinks .rectangle, .frinks .intro, .frinks .detail, .frinks .heading, .frinks .button{
+        position: relative;
+        top: 38vh;
+    }
+
+    .frinks .text{
+        margin: 1vw;
+    }
+    .frinks .button{
+        width: 150px;
+        padding: 2%;
+        margin-top: 3vh;
+        font-size: 4vw;
+        margin-left: 30%;
+    }
+    .snazzy{
+        width: 100%;
+        text-align: center;
+    }
+    .snazzy-logo{
+        left: 0%;  
+    }
+    .snazzy .rectangle{
+        top: -5vh;
+    }
+    .snazzy .heading, .snazzy .intro, .snazzy .detail, .snazzy .button{
+        position: relative;
+        top: -5vh;
+    }
+    .snazzy .intro{
+        font-size: 6vw;
+    }
+    .snazzy .text{
+        margin: 1vw;
+    }
+    .StoryXpress{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .StoryXpress .rectangle, .StoryXpress .heading, .StoryXpress .intro, .StoryXpress .detail, .StoryXpress .button{
+        position: relative;
+        top: 5vh;
+
+    }
+    .signalx{
+        width: 100%;
+        text-align: center;
+    }
+    .signalx-logo{
+        position: relative;
+        top: 5vh;
+        left: 0%;     
+    }
+
+.signalx .rectangle{
+        top: 6vh;
+    }
+.signalx .heading, .signalx .intro, .signalx .detail, .signalx .button{
+        position: relative;
+        top: 5vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) and (min-width: 750px){
+    .ecell-button{
+        margin-left: 40%;
+    }
+
+    .nemocare{
+        width: 100%;
+        text-align: center;
+    }
+    .nemocare-logo{
+        position: relative;
+        width: 45%;
+
+
+    }
+    .heading{
+        font-size: 7vw;
+        margin-top: 2vh;
+    }
+    .intro{
+        font-size: 5vw;
+        margin-top: 2vh;
+    }
+    .detail{
+        font-size: 4vw;
+        margin-top: 2vh;
+    }
+    .nemocare .button, .snazzy .button, .StoryXpress .button, .signalx .button{
+        width: 300px;
+        padding: 2%;
+        margin-top: 7vh;
+        font-size: 3vw;
+        margin-left: 30%;
+    }
+
+    .frinks-logo{
+        position: relative;
+        margin-top: -70vh;
+        top: -15vh;
+        left: 0%;
+        width: 70%;
+    }
+
+    .frinks .button{
+        width: 300px;
+        padding: 2%;
+        margin-top: 3vh;
+        font-size: 3vw;
+        margin-left: 30%;
+    }
+    .snazzy-logo{
+        top: 0vh;
+        left: 0%;  
+        width: 70%;
+    }
+
+    .snazzy .intro{
+        font-size: 5vw;
+    }
+
+    .StoryXpress{
+        width: 100%;
+        text-align: center;
+    }
+
+    .StoryXpress .rectangle, .StoryXpress .heading, .StoryXpress .intro, .StoryXpress .detail, .StoryXpress .button{
+        position: relative;
+        top: 0vh;
+
+    }
+
+    .StoryXpress-logo{
+        margin-top: -15vh;
+        width: 80%;
+        top: 0vh;
+    }
+
+    .signalx-logo{
+        position: relative;
+        top: 5vh;
+        left: 0%;     
+    }
+
+
+.signalx .heading, .signalx .intro, .signalx .detail, .signalx .button{
+        position: relative;
+        top: 5vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========Footer==========
+==============================*/
+footer{ 
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(36, 36, 36);
+    color:white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#footerbottom {
+    background-color:rgb(189, 189, 189);
+    font-size: 10px;
+    color:rgb(36, 36, 36);
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0;
+
+}
+
+footer img {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+footer p {
+    letter-spacing: 2px;
+    margin-top: 25px; 
+}
+
+#logoContnr {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.slogan{
+    color: rgb(98, 13, 246);
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+    color: rgb(98, 13, 246);
+}
+
+svg:hover {
+    cursor: pointer;
+}
+
+.fb:hover, .fb:active {
+    color:#0A82ED;
+}
+
+.ig:hover, .ig:active {
+    color: #CA2D8B;
+}
+
+.li:hover, .li:active {
+    color: #0A66C2;
+}
+
+.yt:hover, .yt:active {
+    color: #FF0000;
+}
+
+.tw:hover, .tw:active {
+    color: #1DA1F2;
+}
+
+/* =====Pre Loader(Yash)===== */
+#loader-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black url(preloader/preloader2.gif) no-repeat center;
+    z-index: 9999;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
